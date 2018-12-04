@@ -20,7 +20,7 @@ Configuration RegistrySet
     $UniqueKey = [guid]::NewGuid().ToString().SubString(0, 8)
 
     $TemplateString = @'
-    xRegistry RegistrySet_{0}_{3}
+    Registry RegistrySet_{0}_{3}
     {{
         Ensure = '{1}'
         Key = '{2}'
